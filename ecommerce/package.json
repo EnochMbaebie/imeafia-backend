@@ -1,31 +1,44 @@
 {
-  "name": "ecommerce",
+  "name": "imeafia",
   "version": "1.0.0",
-  "description": "",
+  "description": "imeafia shopping app",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "EnochMbaebie",
   "license": "ISC",
   "dependencies": {
-    "@sendgrid/mail": "^6.4.0",
+    "@sendgrid/mail": "^6.5.5",
     "body-parser": "^1.19.0",
-    "braintree": "^2.16.0",
-    "cookie-parser": "^1.4.4",
+    "braintree": "^2.23.0",
+    "chokidar": "^2.1.8",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
-    "dotenv": "^8.0.0",
-    "express": "^4.16.4",
-    "express-jwt": "^5.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
     "express-validator": "^5.3.1",
-    "formidable": "^1.2.1",
+    "formidable": "^1.2.2",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
-    "mongoose": "^5.5.5",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.19.0",
-    "uuid": "^3.3.2"
-  }
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.17",
+    "morgan": "^1.10.0",
+    "nodemon": "^1.19.4",
+    "uuid": "^3.4.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnochMbaebie/imeafia-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EnochMbaebie/imeafia-backend/issues"
+  },
+  "homepage": "https://github.com/EnochMbaebie/imeafia-backend#readme"
 }
